@@ -1,0 +1,14 @@
+1- no visual studio code aperte CTRL+ SHIFT + P para abrir a paleta de comandos
+
+2- digite e selecione
+">preferences: open user settings (json)"
+
+3- dentro só cola esse código:
+"
+{
+    "markdown.preview.openMarkdownLinks": "inPreview",
+    "workbench.editorAssociations": {
+        "*.md": "vscode.markdown.preview.editor"
+    }
+}
+"
